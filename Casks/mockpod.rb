@@ -8,4 +8,13 @@ cask "mockpod" do
   homepage "https://github.com/sinanerdinc/mockpod"
 
   app "Mockpod.app"
+
+  caveats do
+    <<~EOS
+      Since Mockpod is ad-hoc signed and not notarized by Apple, macOS may block it on the first launch.
+      If the app fails to open, you can remove the quarantine by running the following command in your Terminal:
+
+        xattr -cr /Applications/Mockpod.app
+    EOS
+  end
 end
