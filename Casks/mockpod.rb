@@ -1,8 +1,8 @@
 cask "mockpod" do
-  version "1.0.4"
-  sha256 "5f0e02849ebd0568d33bc2ac12136281cb1c1dfb30a4de40fd1a0a9a2ac8d7ee"
+  version "1.0.5"
+  sha256 "414258e3e09aae665160e762d6213f954271abc8323909fd206ab3d2478283df"
 
-  url "https://github.com/sinanerdinc/mockpod/releases/download/v1.0.4/Mockpod.dmg"
+  url "https://github.com/sinanerdinc/mockpod/releases/download/v1.0.5/Mockpod.dmg"
   name "Mockpod"
   desc "A powerful network interception and mocking tool for macOS users."
   homepage "https://github.com/sinanerdinc/mockpod"
